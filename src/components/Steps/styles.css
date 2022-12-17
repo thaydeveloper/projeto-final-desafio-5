@@ -1,0 +1,41 @@
+.asideSteps {
+  display: flex;
+  background-color: var(--gray-200);
+  height: 100%;
+  width: 30%;
+  padding: 14vh 5%;
+}
+
+.steps {
+  height: 200px;
+}
+
+.textsSteps,
+.linesAndCircles {
+  justify-content: space-between;
+}
+
+.linesAndCircles {
+  margin-right: 20px;
+  align-items: center;
+}
+
+.spanStep,
+.textGreen {
+  display: block;
+}
+
+.spanStep {
+  font-weight: 600;
+}
+
+.GreenStep {
+  font-weight: 700;
+}
+
+.stepsLines {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 60px;
+}

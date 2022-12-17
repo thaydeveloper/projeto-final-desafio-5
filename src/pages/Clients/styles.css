@@ -1,0 +1,136 @@
+.clientsPage {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: var(--gray-100);
+}
+
+.clientsMain {
+    width: 100%;
+}
+
+.clientsActions,
+.clientsTableTitles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chargeClient,
+.clientsTableTitles {
+    border-bottom: 2px solid var(--gray-100);
+}
+
+.clientsTableTitles {
+    padding-bottom: 23px;
+}
+
+.clientsActions {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.clientsMain {
+    padding: 20px 50px;
+}
+
+.filterActionIcon {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.inputAction {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    box-shadow: 6px 7px 26px -13px rgba(218, 1, 117, 0.58);
+    border-radius: 10px;
+    font-size: 1.8rem;
+    height: 100%;
+    padding: 10px;
+}
+
+.inputActionIcon {
+    width: 24px;
+}
+
+.resetedActionInput {
+    all: unset;
+    margin: 0;
+    width: 85%;
+}
+
+.clientsTable {
+    max-width: 100%;
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 23px;
+}
+
+.clientAndOrder,
+.clientsTableTitle,
+.clientData,
+.addChargeBox {
+    width: 17%;
+    /* margin-right: 70px; */
+}
+
+.clientsTableTitle {
+    text-align: start;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.orderIcon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.clientAndOrder {
+    display: flex;
+    align-items: center;
+}
+
+.chargeClient {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.clientData {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.clientDataStatus {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.addChargeBox {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 13px;
+    /* flex-direction: col */
+}
+
+.addChargeSpan {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.addChargeIcon {
+    width: 25px;
+}

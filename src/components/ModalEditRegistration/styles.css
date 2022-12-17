@@ -1,0 +1,42 @@
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-modal button {
+  margin-top: 16px;
+}
+
+.content-name-email {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.content-name-email input {
+  min-width: 100%;
+}
+
+.content-cpf-phone {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.content-cpf,
+.content-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-cpf-phone input {
+  width: 200px;
+}
+
+.content-passwords {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}

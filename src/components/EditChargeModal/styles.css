@@ -1,0 +1,28 @@
+.chargeModalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.chargeModalHeader img {
+    width: 32px;
+}
+
+.chargeButtons,
+.chargeStatus {
+    border-radius: 10px;
+}
+
+.chargeButtons {
+    margin-bottom: 100px;
+}
+
+.chargeStatus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--gray-200);
+    padding: 12px;
+    cursor: pointer;
+}

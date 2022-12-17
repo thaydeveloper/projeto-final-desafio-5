@@ -1,0 +1,72 @@
+.chargesPage {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: var(--gray-100);
+}
+
+.chargesMain {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.chargeTableHeader {
+    padding-bottom: 16px;
+}
+
+.chargeTableHeader,
+.chargeRow {
+    display: flex;
+    border-bottom: 2px solid var(--gray-100);
+}
+
+.statusCharge {
+    width: fit-content;
+    border-radius: 8px;
+    padding: 0 8px;
+}
+
+.chargeTableTitle,
+.orderTable,
+.chargeItem {
+    display: block;
+    white-space: nowrap;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+
+.chargeItem {
+    cursor: pointer;
+}
+
+.orderTable {
+    display: flex;
+    align-items: center;
+}
+
+.chargeRow {
+    padding: 16px 0;
+}
+
+.chargeAction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.actionChargeTitle {
+    margin: 0%;
+    font-size: 1rem;
+}
+
+.chargeActionImage {
+    display: block;
+    width: 23px;
+}

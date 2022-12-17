@@ -1,0 +1,307 @@
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  --white: white;
+  --gray-100: #f8f8f9;
+  --gray-200: #f0f0f5;
+  --gray-300: #dedee9;
+  --gray-800: #343447;
+  --pink: #da0175;
+  --red: #e70000;
+  --color-dark-green: #034a2a;
+  --not-found-red: #F08889;
+  --not-found-gray: #9B9BB2;
+
+  --color-red-error: #ae1100;
+  --color-error-background: #F2D6D0;
+  --light-green: #acd9c5;
+
+  --charges-paid-300: #eef6f6;
+  --charges-paid-500: #1fa7af;
+
+  --charges-overdue-300: #ffefef;
+  --charges-overdue-500: #971d1d;
+
+  --charges-anticiped-300: #fcf6dc;
+  --charges-anticiped-500: #c5a605;
+
+  --color-delete-card: #CC7800;
+}
+
+Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.size12 {
+  font-size: 1.2rem;
+}
+
+.size14 {
+  font-size: 1.4rem;
+}
+
+.size16 {
+  font-size: 1.6rem;
+}
+
+.size18 {
+  font-size: 1.8rem;
+}
+
+.size24 {
+  font-size: 2.4rem;
+}
+
+.size26 {
+  font-size: 2.6rem;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.colorDarkGray {
+  color: #343447;
+}
+
+.colorLabel {
+  color: #344054;
+}
+
+.colorGray2 {
+  color: #3f3f55;
+}
+
+.colorGray3 {
+  color: #747488;
+}
+
+.colorRed {
+  color: #e70000;
+}
+
+.colorDarkRed {
+  color: #971d1d;
+}
+
+.colorYellow {
+  color: #c5a605;
+}
+
+.colorPink {
+  color: #da0175;
+}
+
+.bgPink {
+  background-color: #da0175;
+}
+
+.colorGreen {
+  color: #1fa7af;
+}
+
+.colorMidGreen {
+  color: #0e8750;
+}
+
+.colorDarkGreen {
+  color: #034a2a;
+}
+
+.passwordInput {
+  all: unset;
+  width: 95%;
+  font-size: 1.6rem;
+}
+
+.fullSize {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.verticalAlign {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizoltalAlign {
+  display: flex;
+  align-items: center;
+}
+
+.centerAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  margin: 9px 0;
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 1.2px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 18px;
+  background-color: var(--pink);
+  border-radius: 10px;
+  width: 160px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.buttonType2 {
+  all: unset;
+  cursor: pointer;
+  font-size: 18px;
+  color: #034a2a;
+  font-family: "Nunito", sans-serif;
+  background-color: var(--gray-200);
+  width: 180px;
+  border: 1px solid var(--gray-300);
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.link {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.invalidInput {
+  border: 1px solid var(--red);
+}
+
+.invalidSpan {
+  margin: 0;
+  display: block;
+  font-size: 1.2rem;
+  color: red;
+  margin-bottom: 4px;
+}
+
+.inputAndLabel {
+  width: 100%;
+}
+
+.label {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.formH1 {
+  padding: 32px;
+  font-family: "Montserrat";
+}
+
+.weight400 {
+  font-weight: 400;
+}
+
+.weight600 {
+  font-weight: 600;
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+.minWidth {
+  width: 100%;
+}
+
+.container-modal {
+  height: 100vh;
+  background-color: rgba(145, 154, 150, 0.3);
+  min-width: 30vw;
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 40px;
+}
+
+.error {
+  border: 1px solid #e70000;
+}
+
+.messageErro {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #e70000;
+}
+
+.actionsTitles {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actionsIcon {
+  width: 35px;
+}
+
+.actionsTypes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 660px;
+}
+
+.overdueStatus {
+  color: var(--charges-overdue-500);
+  background-color: var(--charges-overdue-300);
+}
+
+.upToDateStatus {
+  color: var(--charges-paid-500);
+  background-color: var(--charges-paid-300);
+}
+
+.pendingStatus {
+  color: var(--charges-anticiped-500);
+  background-color: var(--charges-anticiped-300);
+}
+
+.actionButton {
+  width: unset;
+  padding: 8px 60px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}

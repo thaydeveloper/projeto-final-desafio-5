@@ -1,0 +1,25 @@
+.actionBox {
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    padding: 15px;
+    background-color: #C3D4FE;
+    border-radius: 10px;
+}
+
+.actionBoxSpan {
+    margin: 0;
+    color: #243F80;
+}
+
+.actionBoxImage {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.actionBoxImageClose {
+    margin-left: 20px;
+}

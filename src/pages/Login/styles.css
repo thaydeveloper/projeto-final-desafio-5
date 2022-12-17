@@ -1,0 +1,36 @@
+.loginPage {
+    display: flex;
+}
+
+.containerLogin {
+    width: 70%;
+}
+
+.asideLogin {
+    width: 30%;
+    background-image: url('../../assets/loginImage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 50px;
+}
+
+.loginPhrase {
+    text-align: center;
+    font-weight: 600;
+}
+
+.loginButton {
+    padding: 4px 55px;
+}
+
+.loginForm {
+    width: 355px;
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}

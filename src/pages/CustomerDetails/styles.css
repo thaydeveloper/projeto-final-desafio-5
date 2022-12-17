@@ -1,0 +1,67 @@
+ .detailPage {
+   max-width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   position: relative;
+   background-color: var(--gray-100);
+ }
+
+ .detailMain {
+   width: 100%;
+   padding: 20px 50px;
+
+ }
+
+ .detailHeader {
+   gap: 16px;
+   margin-bottom: 16px;
+ }
+
+ .cutomerInfos {
+   margin-bottom: 24px;
+ }
+
+ .cutomerInfos,
+ .customerCharges {
+   background-color: var(--white);
+   border-radius: 30px;
+   padding: 24px;
+ }
+
+ .editButton {
+   /* all: unset; */
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   gap: 6px;
+   padding: 4px 60px;
+   background-color: var(--gray-100);
+   border: 1px solid var(--gray-300);
+   border-radius: 10px;
+   color: #0e8750;
+ }
+
+ .virtualCustomerData,
+ .contentCustomerData {
+   max-width: 100vw;
+   display: flex;
+   gap: 100px;
+ }
+
+ .virtualCustomerData {
+   margin-bottom: 65px;
+ }
+
+ .customerData {
+   max-width: 100%;
+ }
+
+ .contentEmail,
+ .contentAddress,
+ .contentPhone,
+ .contentDistrict,
+ .contentCPF,
+ .contentComplement {
+   min-width: 180px;
+   max-width: 180px;
+ }

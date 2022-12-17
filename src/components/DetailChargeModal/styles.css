@@ -1,0 +1,31 @@
+.DetailHeader {
+    margin: 0;
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closeBtnDetail {
+    width: 32px;
+    cursor: pointer;
+}
+
+.contentDetailName,
+.contentDetailDescription,
+.expirationDateAndValueContent {
+    margin-bottom: 24px;
+}
+
+.contentDetailExpirationDate,
+.contentDetailValue,
+.contentIDCharge,
+.contentDetailStatus {
+
+    width: 245px;
+}
+
+.detailInfo {
+    display: block;
+    word-wrap: break-word;
+}

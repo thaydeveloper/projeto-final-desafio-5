@@ -1,0 +1,42 @@
+.arrowUserModal {
+    cursor: pointer;
+}
+
+.userInfos {
+    position: relative;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.userName {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.containerHeader {
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid var(--light-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resumeTitle {
+    display: block;
+}
+
+.userPrefix {
+    display: flex;
+    justify-content: center;
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 2.2rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--gray-300);
+}

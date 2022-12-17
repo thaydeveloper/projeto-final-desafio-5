@@ -1,0 +1,12 @@
+.confirmedEditImage {
+    width: 100px;
+    margin-bottom: 24px;
+}
+
+.confirmedEditModal {
+    width: 550px;
+    height: 480px;
+    padding: 0 10px;
+    background-color: var(--white);
+
+}

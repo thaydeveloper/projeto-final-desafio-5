@@ -1,0 +1,20 @@
+.notFoundContainer {
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+}
+
+.notFoundImage {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.notFoundTitle {
+    font-size: 2.8rem;
+    color: var(--not-found-red);
+    margin-bottom: 16px;
+}
+
+.notFoundSubTitle {
+    color: var(--not-found-gray);
+}
